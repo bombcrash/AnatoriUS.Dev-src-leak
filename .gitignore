@@ -1,0 +1,11 @@
+# Build klasörleri
+build/
+.gradle/
+*.class
+
+# IDE dosyaları
+.idea/
+*.iml
+
+# Diğer geçici dosyalar
+*.log
