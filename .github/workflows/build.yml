@@ -26,7 +26,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build
-        run: ./gradlew build
+        run: ./gradlew build shadowJar
 
       - name: Remove *-sources.jar
         run: rm ./build/libs/*-sources.jar || true
